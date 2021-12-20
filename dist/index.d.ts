@@ -1,0 +1,14 @@
+import 'reflect-metadata';
+import { Injector } from './injector';
+import { ProviderKey } from './provider';
+export * from './injector';
+export * from './providers';
+export * from './inject_decorator';
+export * from './forward_ref';
+export * from './errors';
+export * from './resolve';
+export declare const injector: Injector;
+export declare const injectable: (injector?: Injector) => ClassDecorator;
+export declare const inject: (key: ProviderKey) => ParameterDecorator;
+export declare const optional: () => ParameterDecorator;
+export declare const useNew: () => ParameterDecorator;

@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "target": "ES5",
+        "module": "CommonJS",
+        "declaration": true,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "types": [
+            "mocha",
+            "reflect-metadata",
+            "node"
+        ]
+    },
+    "exclude": [
+        "node_modules",
+        "./dist",
+        "tests/**/*"
+    ]
+}
